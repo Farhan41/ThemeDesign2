@@ -1,0 +1,26 @@
+March mission 2023
+
+https://preview.codecanyon.net/item/heyauth-authentication-html5-pages-template/full_screen_preview/37097795?_ga=2.49016367.866772172.1677660839-1560513395.1662625490
+
+--15days
+
+http://preview.codecanyon.net/item/shara-food-drink-landing-page-template/full_screen_preview/35384339
+
+
+--15days
+
+Note:
+
+<script src="https://kit.fontawesome.com/16bd441830.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+<i class="fa fa-eye"></i>
+
+<i class="fa-solid fa-heart"></i>
+
+<i class="fa fa-envelope display-6"></i>
+
+<i class="fa-solid fa-user display-6"></i>
+
+<i class="fa-solid fa-circle text-success f-12 me-2"></i>

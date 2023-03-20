@@ -1,0 +1,101 @@
+@media (max-width: 991px){
+
+    .navbar .button-navbar {
+        display: none;
+    }
+    .contact .content-map iframe {
+        height: 365px;
+      }
+}
+
+
+
+@media (max-width: 768px){
+    .intro .content img {
+        left: 0;
+      }
+
+      .about .content {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+}
+
+
+
+@media (max-width:576px){
+  
+    .open-hours .hours {
+        margin: 0;
+    }
+
+    .cta img {
+        top: 0;
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    .faq .accordion {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .faq .accordion-item {
+        padding: 12px 0;
+    }
+
+    .contact .content-map iframe {
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+    .contact .content {
+        border-radius: 5px;
+    }
+    
+}
+
+@media (min-width:361px) and (max-width:766px){
+	
+    .product .product-filter-menu {
+        display: none;  
+    }
+}
+
+
+@media (max-width: 360px){
+    h1 {
+        line-height: 45px;
+        font-size: 38px;
+      }
+
+      .about .row .row .col {
+        flex: initial;
+        display: inherit;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .product .product-filter-menu {
+        top: -14px;
+        margin-bottom: 5px;   
+    }
+
+    .contact .content i {
+        padding: 0;
+        border: 0;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   
+}
+
+
