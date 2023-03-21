@@ -64,6 +64,13 @@
 
 
 @media (max-width: 360px){
+
+
+    .navbar .navbar-brand img {
+        height: 30px;
+        width: auto;
+    }
+
     h1 {
         line-height: 45px;
         font-size: 38px;
