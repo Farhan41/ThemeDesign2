@@ -1,3 +1,12 @@
+:root {
+	--main-color: #fbbc00a3;;
+	--button-color: #d01616;
+	--social-color:#d01616;
+  }
+
+
+
+
 
 body {
 	font-size: 16px;
@@ -7,6 +16,12 @@ body {
 
 
 /* Navbar Start */
+
+.navbar-toggler {
+	font-size: var(--bs-navbar-toggler-font-size);
+	line-height: 1;
+	color: var(--button-color);
+}
 
 ul {
     padding: 0;
@@ -43,8 +58,8 @@ ul li {
 }
 
 .navbar .navbar-brand img {
-    height: 30px;
-    width: auto;
+	height: 36px;
+	width: auto;
 }
 
 .navbar .navbar-collapse {
@@ -64,7 +79,7 @@ ul li {
 }
 
 .navbar .navbar-nav li a:hover {
-	color: #ff7a42;
+	color: var(--social-color);
 }
 
 .navbar .button-navbar {
@@ -80,7 +95,7 @@ ul li {
 
 .button {
     padding: 12px 30px;
-    background: #ff7a42;
+    background: var(--button-color);
     color: #fff;
     font-size: 13px;
     letter-spacing: 1px;
@@ -130,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro .content {
-	background: #ffedea;
+	background: var(--main-color);
 	padding: 60px 40px;
 	border-radius: 5px;
 	color: #555;
@@ -163,7 +178,7 @@ img {
 }
 
 .intro .content ul li a i {
-	color: #ff7a42;
+	color: var(--social-color);
 	font-size: 18px;
 }
 
@@ -189,7 +204,7 @@ img {
 	letter-spacing: 1px;
 	font-weight: 600;
 	margin-bottom: 15px;
-	color: #ff7a42;
+	color: var(--social-color);
 }
 
 .the-title span {
@@ -230,10 +245,10 @@ p {
 
 .about .icon i {
 	font-size: 25px;
-	border: 1px solid #ff7a42;
+	border: 1px solid var(--social-color);
 	border-radius: 2px;
 	padding: 15px;
-	color: #ff7a42;
+	color:var(--social-color);
 }
 
 .about .text {
@@ -260,7 +275,7 @@ h5 {
 
 .open-hours .content {
 	padding: 80px 35px;
-	background: #ffedea;
+	background: var(--main-color);
 	border-radius: 5px;
 }
 
@@ -269,7 +284,7 @@ h5 {
 }
 
 .open-hours ul {
-	border: 2px dotted #ff7a42;
+	border: 2px dotted var(--button-color);
 	margin-bottom: 20px;
 	padding: 20px;
 }
@@ -287,7 +302,7 @@ h5 {
 	margin: 0 25%;
 	border: 0;
 	border-radius: 5px;
-	background: #ff7a42;
+	background: var(--button-color);
 }
 
 .open-hours .hours li {
@@ -319,7 +334,7 @@ h5 {
 .product .content {
 	border-radius: 5px;
 	padding: 20px;
-	border: 1px solid #ffedea;
+	border: 1px solid var(--main-color);
 }
 
 a {
@@ -346,7 +361,7 @@ a {
 
 .product .content span {
 	font-size: 23px;
-	color: #ff7a42;
+	color: var(--button-color);
 	font-family: 'Heebo', sans-serif;
 }
 
@@ -359,12 +374,12 @@ a {
 }
 
 .product .product-filter-menu ul {
-	background: #ffedea;
+	background: var(--button-color);
 	padding: 10px 20px;
 	border-radius: 5px;
 	font-size: 14px;
 	font-weight: 600;
-	color: #0a0a0a;
+	color: #ffffff;
 }
 
 .product .product-filter-menu ul li {
@@ -395,7 +410,7 @@ a {
 }
 
 .cta .box-content {
-	background: #ffedea;
+	background: var(--main-color);
 	border-radius: 5px;
 	padding: 50px 40px;
 }
@@ -426,7 +441,7 @@ a {
 
 .faq .accordion-item {
 	margin-bottom: 15px;
-	border: 1px solid #ffedea;
+	border: 1px solid var(--social-color);
 }
 
 .faq .accordion-button:not(.collapsed) {
@@ -446,9 +461,11 @@ a {
 }
 
 .faq .accordion-button:focus {
-	border-color: #ffedea;
+	border-color: var(--main-color);
 	box-shadow: none;
 }
+
+
 
 /* faq end */
 
@@ -464,7 +481,7 @@ a {
 }
 
 .contact .content {
-	background: #ffedea;
+	background: var(--main-color);
 	padding: 35px 35px;
 	border-radius: 0 5px 5px 0;
 }
@@ -479,10 +496,10 @@ a {
 
 .contact .content i {
 	font-size: 30px;
-	border: 1px solid #ff7a42;
+	border: 1px solid var(--social-color);
 	border-radius: 2px;
 	padding: 10px;
-	color: #ff7a42;
+	color: var(--social-color);
 	margin-right: 20px;
 	position: relative;
 	top: 6px;
@@ -490,7 +507,7 @@ a {
 
 .contact .content ul li {
 	font-size: 15px;
-	color: #555;
+	color: #000;
 	font-weight: 500;
 	line-height: 30px;
 }
