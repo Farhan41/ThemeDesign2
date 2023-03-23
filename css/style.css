@@ -1,5 +1,5 @@
 :root {
-	--main-color: #fbbc00a3;;
+	--main-color: #fbbc00a3;
 	--button-color: #d01616;
 	--social-color:#d01616;
   }
@@ -13,6 +13,35 @@ body {
 	font-family: 'Raleway', sans-serif;
 	color: #6a6a6a;
 }
+
+
+/* loader start*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fbbc00;
+}
+
+.loader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader .loading .aloader {
+    background: var(--main-color);
+    color: var(--social-color);
+}
+
+
+
+/* loader end */
 
 
 /* Navbar Start */
